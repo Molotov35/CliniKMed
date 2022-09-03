@@ -1,4 +1,6 @@
-			<!-- llama al encabezado -->	
+	
+
+		<!-- llama al encabezado -->	
 	<?php
 		include ('Styles\HEADER.html');
 	?>
@@ -9,14 +11,14 @@
 <body id="Formresp">
 
 
-			<!-- Interfaz de formulario de Medicos-->
+		<!-- Interfaz de formulario de Medicos-->
 
 	<center>
 		<form action="FormMedic.php" method="post" id="Form">	
 			<h2>Agregar Médicos</h2>		
 			<h4>
 
-				<input type="text" name="Nombre_medico" maxlength="50" placeholder="Nombre del medico" required><br><br>				
+				<input type="text" name="Nombre_medico" maxlength="50" placeholder="Nombre" required><br><br>				
 				<input type="number" name="Id_especialidad" min="1" max="4"  placeholder="Especialidad" required><br><br>
 				<input type="text" name="Razon_social_medico" placeholder="Razón Social" required><br><br>
 
@@ -80,7 +82,7 @@
 		
 			
 				/*============================
-						Mostrar errores
+					Mostrar errores
 				============================*/
 
 			ini_set('display_error', 1);
@@ -88,7 +90,7 @@
 			ini_set("error_log", "C:/xampp/htdocs/APIREST/php_error_log");
 
 				/*============================
-						Requerimientos
+					Requerimientos
 				============================*/
 
 			require_once "models/Insert.model.php";
