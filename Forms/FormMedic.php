@@ -39,7 +39,7 @@
 				<input type="text" name="Direccion_medico" placeholder="Direccion" style="height: 100px;" required><br><br>
 
 				<br>Logo<br>
-				<input type="file" name="Logo_medico" id="file" accept=""><br><br>
+				<input type="file" name="Logo_medico" id="file" accept="image/jpg,image/png"><br><br>
 
 				<br>
 				<button type="submit" id="submit" name="Submit_ins_med">Enviar</button>
