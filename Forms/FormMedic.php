@@ -16,7 +16,7 @@
 			<h2>Agregar Médicos</h2>		
 			<h4>
 
-				<input type="text" name="Nombre_medico" maxlength="50" placeholder="Médico" required><br><br>				
+				<input type="text" name="Nombre_medico" maxlength="50" placeholder="Nombre del medico" required><br><br>				
 				<input type="number" name="Id_especialidad" min="1" max="4"  placeholder="Especialidad" required><br><br>
 				<input type="text" name="Razon_social_medico" placeholder="Razón Social" required><br><br>
 
