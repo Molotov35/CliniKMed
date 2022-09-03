@@ -54,7 +54,10 @@
 			<!--  envío y recepcion de datos a models/Get.model.php para conección y operaciones con bases de datos  -->
 	<?php
 		unset ($Submit_ins_med);
+
+		
 		if (isset($_POST['Submit_ins_med'])) {
+
 				
 			$Nombre_medico = isset($_POST['Nombre_medico']) ? $_POST['Nombre_medico'] : "";
 
